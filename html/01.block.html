@@ -11,6 +11,14 @@
 	<!-- ie의 버전을 최신버전으로 맞춰준다. -->
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>block/inline 알아보기</title>
+	<style>
+	.tit {
+		text-align: center; 
+		background-color: #856235; 
+		padding: 20px; 
+		border: 5px solid #521c1c;
+	}
+	</style>
 </head>
 <!-- html 문서의 본문 -->
 <!-- 
@@ -20,11 +28,14 @@
 	글씨, img(이미지), a, span, i, b, strong, em ...
  -->
 <body>
-	<div style="text-align: center; background-color: #856235; padding: 20px; border: 5px solid #521c1c;">
+	<div class="tit">
 		<a href="https://naver.com">네이버</a>
 		<a href="https://daum.net">다음</a>
 		<a href="https://google.com">구글</a>
 		<a href="https://coupang.com">쿠팡</a>
 	</div>
+	<div class="tit">여기도 적용이 되나요?</div>
+	<div>여기는 다른 공간</div>
+	<div class="tit">여기도 적용이 되나요?</div>
 </body>
 </html>
