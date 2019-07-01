@@ -1,0 +1,32 @@
+<!-- html5 문서임을 브라우저에게 알려주는 문서타입 정의 -->
+<!DOCTYPE html>
+<!-- html 문서의 시작 -->
+<html lang="ko">
+<!-- head 선언 / head는 문서에는 나타나지 않으나 제목이나, 설정, meta설정을 진행하는 곳 -->
+<head>
+	<!-- charset: 브라우저에게 문자셋을 알려준다. utf-8/euc-kr -->
+	<meta charset="UTF-8">
+	<!-- 현재 html문서가 반응형임을 알려준다 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- ie의 버전을 최신버전으로 맞춰준다. -->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>block/inline 알아보기</title>
+</head>
+<!-- html 문서의 본문 -->
+<!-- 
+	1. block tag - 무조건 한줄을 가진다.
+	h1~6, p, div, ul, li, ol, dl, dt, dd ...
+	2. inline tag - 글씨와 같다.
+	글씨, img(이미지), a, span, i, b, strong, em ...
+ -->
+<body>
+	<h1>가나다</h1>
+	<h2>나</h2>
+	<p>
+		가나다<i>마</i>바사
+		<div>div태그</div>
+		여기를 클릭하면 <a href="https://naver.com" target="_blank">네이버</a>로 갑니다.
+		<img src="../img/bts-1.jpg" alt="">
+	</p>
+</body>
+</html>
